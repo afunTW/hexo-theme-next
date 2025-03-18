@@ -1,0 +1,156 @@
+.category-timeline-container {
+  margin: 20px 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.category-all-title {
+  display: none !important;
+}
+
+.category-all {
+  margin: 30px 0 40px 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.category-item {
+  display: inline-block !important;
+  margin: 0 8px 10px 0 !important;
+  padding: 3px 8px !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  background: #f6f6f6 !important;
+  border-radius: 3px !important;
+}
+
+.category-item a {
+  color: #333 !important;
+  text-decoration: none !important;
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+  transition: color 0.2s ease !important;
+  font-weight: normal !important;
+}
+
+.category-item a:hover {
+  color: #0078e7 !important;
+  text-decoration: none !important;
+  background: none !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+}
+
+/* Force proper whitespace */
+.category-item a:after {
+  content: " " !important;
+  display: inline !important;
+}
+
+/* Remove existing bullet points if any */
+.category-all ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-all li {
+  display: inline-block;
+}
+
+/* Style the category heading exactly like Huli's blog */
+.category-all:before {
+  content: "分類" !important;
+  display: block !important;
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+  margin: 0 0 15px 0 !important;
+  padding: 0 !important;
+  color: #333 !important;
+  border: none !important;
+  background: none !important;
+  text-align: left !important;
+}
+
+/* Clean the category list container */
+.category-all > * {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  border: none !important;
+}
+
+/* Make the timeline more compact */
+
+/* Reduce margin between category sections */
+.category-section {
+  margin-bottom: 10px;
+}
+
+/* Reduce spacing for category headers */
+.category-section .collection-title {
+  margin: 20px 0 0;
+}
+
+.category-section .archive-year {
+  margin: 10px 0;
+  font-size: 1.6em;
+}
+
+/* Make post items more compact */
+.category-section .posts-collapse {
+  margin-left: 10px;  /* Bring timeline closer to left */
+}
+
+.category-section .post {
+  margin: 0 0 6px 20px !important;  /* Reduce bottom margin between posts */
+  padding: 3px 0 !important;  /* Reduce top/bottom padding */
+}
+
+.category-section .post-header {
+  padding: 0 2px !important;  /* Reduce left/right padding */
+}
+
+/* Adjust spacing between date and title */
+.category-section .post-meta {
+  margin-bottom: 0 !important;
+}
+
+.category-section .post-title {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+  font-size: 1em !important;
+}
+
+/* Make dots smaller */
+.category-section .post:before {
+  width: 6px !important;
+  height: 6px !important;
+  left: -3px !important;
+  top: 13px !important;
+}
+
+/* Clean up debug panel */
+.category-section .debug-wrapper {
+  display: none;  /* Hide the debug panel in production */
+}
+
+/* Table styles will be handled by inline CSS */
+
+/* Debug styles - hide after fixing */
+.debug-layout {
+  outline: 1px solid red;
+}
+
+/* Clean all styling for category section */
+.post-block.categories {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  border: none !important;
+} 
